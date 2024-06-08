@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gaza"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flag">
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/login"
+        android:text="LOGIN"
+        android:layout_marginTop="-20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFF0000"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="05"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_marginTop="15dp"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFF0000"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="05"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/exit"
+        android:layout_marginTop="15dp"
+        android:text="EXIT"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#918989"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="05"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</LinearLayout>

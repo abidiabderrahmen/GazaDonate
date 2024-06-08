@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pal"
+    tools:context=".login"
+    tools:visibility="visible">
+
+    <ImageView
+        android:layout_width="269dp"
+        android:layout_height="204dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/lo1">
+
+    </ImageView>
+
+
+
+    <EditText
+        android:id="@+id/emaill"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/black"
+
+        >
+
+    </EditText>
+
+
+    <EditText
+
+        android:id="@+id/passw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_input"
+        android:breakStrategy="simple"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/black">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="570dp"
+        android:backgroundTint="#FF0000"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="25dp">
+
+    </Button>
+    <TextView
+        android:id="@+id/changepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want to change Password ?"
+        android:clickable="true"
+        android:layout_marginTop="635dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#979191"
+        android:onClick="handleClick" />
+    <TextView
+        android:id="@+id/deleteacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Your account!"
+        android:clickable="true"
+        android:layout_marginTop="660dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#979191"
+        android:onClick="handleClick" />
+
+
+
+</RelativeLayout>
